@@ -14,14 +14,80 @@
 html {
   font-family: "GraphikLCG";
 }
-.fone_color {
-  background-color: rgb(170, 194, 189);
-  width: 100%;
-}
 .container {
   max-width: 1440px;
-  position: relative;
-  background-color: red;
-  margin: 0px auto;
   padding: 0px 55px;
+  margin: 0px auto;
+  padding: 0px;
+}
+.btn {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  outline: none; 
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+.btn.primary {
+  background-color:#FF6336;
+  border: 1px solid #FF6336;
+  color:#fff;
+  height: 45px;
+  padding: 0 22px;
+}
+.btn.primary:hover {
+  background-color: transparent;
+  color: #FF6336;
+
+}
+.btn.primary.black {
+  background-color: transparent;
+  color: #000;
+  padding: 0 36px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+}
+.btn.primary.black:hover {
+  background-color: black;
+  color: white;
+  
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+  padding: 25px 0;
+}
+.header .container {
+  padding: 0px 51px;
+}
+.header .header-inner {
+  display: flex;
+  align-items: center;
+}
+.header .navigation {
+  display: flex;
+  margin-right: auto;
+
+}
+.header .logo {
+  width: 130px;
+  height: 28px;
+  object-fit: contain;
+  margin-right: 50px;
+
+}
+.header .navigation li {
+  margin-right: 50px;
+}
+.header .navigation li:last-child {
+  margin-right: 0px;
+}
+.header .navigation li a {
+color: #000;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+text-decoration: none;
 }

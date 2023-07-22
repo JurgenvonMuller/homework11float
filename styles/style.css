@@ -1,18 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: sans-serif;
+@font-face {
+  font-family:"GraphikLCG";
+  font-weight: 400;
+  src: url(../fonts/GraphikLCG-Regular.ttf);
+}
+@font-face {
+  font-family: "GraphikLCG";
+  font-weight: 600;
+  src: url(../fonts/GraphikLCG-Semibold.ttf);
+}
+html {
+  font-family: "GraphikLCG", sans-serif;
 }
 .fone_color {
   background-color: rgb(170, 194, 189);
   width: 100%;
 }
 .container {
+  max-width: 1440px;
   position: relative;
-  top: 0px;
-  width: 1120px;
-  background-color: rgb(217, 225, 231);
+  background-color: red;
   margin: 0px auto;
+  padding: 0px 55px;
 }

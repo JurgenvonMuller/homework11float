@@ -12,7 +12,7 @@
   src: url(../fonts/GraphikLCG-Semibold.ttf);
 }
 html {
-  font-family: "GraphikLCG", sans-serif;
+  font-family: "GraphikLCG";
 }
 .fone_color {
   background-color: rgb(170, 194, 189);

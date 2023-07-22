@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.fone_color {
+  background-color: rgb(170, 194, 189);
+  width: 100%;
+}
+.container {
+  position: relative;
+  top: 0px;
+  width: 1120px;
+  background-color: rgb(217, 225, 231);
+  margin: 0px auto;
+}

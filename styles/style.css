@@ -202,6 +202,17 @@ padding-bottom: 70px;
 .projects .item:last-child {
   margin-bottom: 0;
 }
+.projects .item:nth-child(even) .image {
+  background-color: red;
+  order: 1;
+}
+.projects .item:nth-child(even) .block {
+  order: 2;
+  margin-right: 0;
+}
+.projects .item:last-child .image {
+ height: 577px;
+}
 .projects .item .block {
   display: flex;
   flex-direction: column;

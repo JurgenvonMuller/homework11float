@@ -135,7 +135,7 @@ width: 100%;
 margin-bottom: 50px;
 }
 .hero .sub_text {
-  color: #000;
+color: #000;
 font-size: 25px;
 font-weight: 400;
 line-height: 35px;
@@ -227,7 +227,8 @@ padding-bottom: 70px;
   height: 632px;
   margin-right: 20px;
 }
-.projects .item .title {
+.projects .item .title,
+.localize .localize-inner .title {
 font-size: 50px;
 font-weight: 600;
 line-height: 60px;
@@ -250,4 +251,59 @@ transition: color 0.3s ease;
 }
 .projects .item .link:hover {
   color: #FF9C7D;
+}
+.localize {
+  background-color: #FFF8E4;
+}
+.localize-inner {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0 93px 0;
+}
+.localize .cards {
+  display: flex;
+  flex-direction: row;
+  margin-top:58px;
+  /*width: 1290px;*/
+  background-color: limegreen;
+}
+.localize .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 330px;
+  width: 100%;
+  padding: 21px 24px 0 25px;
+}
+.localize .container .localize-inner .title {
+  padding-bottom: 50px;
+}
+
+/*Можно бы было объединить стили 
+(так как это сделано выше.localize .container .localize-inner .title) 
+с предыдущими надписями хотя бы частично
+но считаю целесообразным сделать свой стиль для карточек
+что бы не путать со всем сайтом в случае изменения именно 
+этого блока */
+.localize .card-name {
+  display: block;
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+  margin: 24px 0px 23px;
+  width: 330px;
+}
+.localize .card-opis {
+color: #000;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+}
+.localize .card {
+  
 }

@@ -364,33 +364,40 @@ line-height: 25px;
 margin-bottom: 7px;
 }
 /*Стилизация секции Cake*/
+.cake {
+  background-color: #DABC98;
+}
 .cake-inner {
   display: flex;
+  padding: 70px 0px 80px 0px;
+  margin: 0px auto;
 
 }
 .cake-opis {
-  display: flex;
+  display: inline-block;
+  position: relative;
   align-items: center;
-  max-width: 800px;
+  max-width: 809px;
+}
+.cake-opis .cake-img {
+  position: absolute;
+  top: -20px;
+  left: -20px;
 }
 .cake-opis p {
-  color: #000;
-font-family: Graphik LC TT;
-font-size: 35px;
-font-style: normal;
-font-weight: 600;
-line-height: 50px;
+
+  width: 401px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
 }
 .cake-capterra{
 display: flex;
-flex-wrap: nowrap;
+flex-wrap: wrap;
 flex-direction:column;
-flex: 1 0 50%;
-
+justify-content: center;
 }
 .cake-capterra p {
-/*color: #000;
-font-family: Graphik LC TT;*/
 font-size: 15px;
 font-weight: 400;
 line-height: 25px; 

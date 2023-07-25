@@ -320,7 +320,6 @@ line-height: 25px;
 .boost .boost-cards {
   display: flex;
   align-items: baseline;
-  max-width: 1290px;
   margin: 0px auto;
 }
 .boost .boost-cards .boost-card .card-name {
@@ -335,6 +334,7 @@ margin: 50px 0 34px;
 }
 .boost-cards .boost-card .card-opis {
   padding-bottom: 25px;
+  max-width: 409px;
 }
 .boost-card a {
 padding-bottom: 0px;
@@ -347,13 +347,14 @@ color: #000;;
 .revolut .revolut-inner {
   display:flex;
   align-items: flex-start;
-  padding: 53px 75px 105px 75px;
+  justify-content: space-between;
+  padding: 53px 0px 105px 0px;
 }
 .revolut-inner .citat p {
 font-size: 30px;
 font-weight: 400;
 line-height: 40px;
-margin: 10px 0 23px;
+margin: 10px 60px 23px 0;
 }
 .revolut-inner .citat p:nth-child(2) {
 font-family: Roboto;
@@ -361,6 +362,43 @@ font-size: 15px;
 font-weight: 400;
 line-height: 25px;
 margin-bottom: 7px;
+}
+/*Стилизация секции Cake*/
+.cake-inner {
+  display: flex;
+
+}
+.cake-opis {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+}
+.cake-opis p {
+  color: #000;
+font-family: Graphik LC TT;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px;
+}
+.cake-capterra{
+display: flex;
+flex-wrap: nowrap;
+flex-direction:column;
+flex: 1 0 50%;
+
+}
+.cake-capterra p {
+/*color: #000;
+font-family: Graphik LC TT;*/
+font-size: 15px;
+font-weight: 400;
+line-height: 25px; 
+letter-spacing: 0.75px;
+}
+
+.cake-capterra .pic {
+  max-width: 120px;
 }
 
 

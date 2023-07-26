@@ -368,25 +368,29 @@ margin-bottom: 7px;
   background-color: #DABC98;
 }
 .cake-inner {
-  display: flex;
+  display: inline-flex;
   padding: 70px 0px 80px 0px;
   margin: 0px auto;
 
 }
 .cake-opis {
-  display: inline-block;
+  display: block;
   position: relative;
   align-items: center;
   max-width: 809px;
+  padding: 47px 125px 31px 240px;
+  max-width: 809px;
+  border-right: 2px solid black;
 }
 .cake-opis .cake-img {
+  display:block;
   position: absolute;
-  top: -20px;
+  top: 15px;
   left: -20px;
 }
 .cake-opis p {
-
-  width: 401px;
+  position: relative;
+  width: 461px;
   font-size: 35px;
   font-weight: 600;
   line-height: 50px;

@@ -310,17 +310,19 @@ line-height: 25px;
 .boost-inner {
   min-width: 430px;
   width:  100%;
-  padding: 154px 20px 187px 20px;
+  padding: 154px 55px 187px 0px;
 }
 
 .boost .container .boost-inner .title {
   text-align:left;
   padding-bottom: 25px;
+  padding-left: 20px;
 }
 .boost .boost-cards {
   display: flex;
   align-items: baseline;
   margin: 0px auto;
+  padding-left: 20px;
 }
 .boost .boost-cards .boost-card .card-name {
 font-size: 30px;
@@ -347,14 +349,22 @@ color: #000;;
 .revolut .revolut-inner {
   display:flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 53px 0px 105px 0px;
+  
+}
+.citat {
+  max-width: 940px;
+  margin: 0px 60px 0px 20px;
 }
 .revolut-inner .citat p {
+/*font-size: 30px;
+font-weight: 400;
+line-height: 40px;*/
+margin: 10px 60px 23px 0;
 font-size: 30px;
 font-weight: 400;
-line-height: 40px;
-margin: 10px 60px 23px 0;
+line-height: 40px; 
 }
 .revolut-inner .citat p:nth-child(2) {
 font-family: Roboto;
@@ -369,7 +379,7 @@ margin-bottom: 7px;
 }
 .cake-inner {
   display: inline-flex;
-  padding: 70px 0px 80px 0px;
+  padding: 70px 20px 80px 20px;
   margin: 0px auto;
 
 }
@@ -398,8 +408,15 @@ margin-bottom: 7px;
 .cake-capterra{
 display: flex;
 flex-wrap: wrap;
-flex-direction:column;
-justify-content: center;
+max-width: 481px;
+
+}
+.stars {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  padding-left: 71px;
+
 }
 .cake-capterra p {
 font-size: 15px;
@@ -409,7 +426,7 @@ letter-spacing: 0.75px;
 }
 
 .cake-capterra .pic {
-  max-width: 120px;
+ /*min-width: 150px;*/
 }
 
 

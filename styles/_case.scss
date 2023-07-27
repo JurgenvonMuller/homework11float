@@ -1,0 +1,56 @@
+.case {
+  background-color: #EEEEEE;
+  .container {
+    .case-inner {
+      display: flex;
+      margin:0 auto;
+      padding:92px 20px 94px 20px;
+      background-color: rgb(196, 169, 16);
+      .studies {
+        display:flex;
+        flex-direction: column;
+          h2 {
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 50px
+          }
+          img {
+            width: 300px;
+            height: 300px;
+          }
+          .speciallized-small {
+            width: 80px;
+            height: 32px;
+            flex-shrink: 0;
+          .p {
+            display:block;
+            width: 290px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+          }
+          a {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            text-decoration: none;
+          }
+        }
+      }
+      .list {
+        p {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 25px;
+        }
+        ul>li {
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 15px;
+        }
+      }
+    }
+  }
+    
+
+}

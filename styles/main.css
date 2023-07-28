@@ -66,8 +66,7 @@ table {
   max-width: 1440px;
   padding: 0px 55px;
   margin: 0px auto;
-  padding: 0px;
-  background-color: yellow;
+  background-color: yellowgreen;
 }
 
 @font-face {
@@ -84,16 +83,6 @@ html {
   font-family: "GraphikLCG";
 }
 
-/*// @font-face {
-  font-family:"GraphikLCG";
-  font-weight: 400;
-  src: url(../fonts/GraphikLCG-Regular.ttf);
-}
-@font-face {
-  font-family: "GraphikLCG";
-  font-weight: 600;
-  src: url(../fonts/GraphikLCG-Semibold.ttf);
-// }*/
 .btn {
   display: inline-block;
   background-color: transparent;
@@ -145,21 +134,13 @@ html {
   border-bottom: 1px solid #ccc;
   padding: 25px 0;
 }
-
 .header .container {
   padding: 0px 51px;
 }
-
 .header .header-inner {
   display: flex;
   align-items: center;
 }
-
-.header .navigation {
-  display: flex;
-  margin-right: auto;
-}
-
 .header .logo {
   width: 130px;
   height: 28px;
@@ -167,20 +148,22 @@ html {
      object-fit: contain;
   margin-right: 50px;
 }
-
+.header .navigation {
+  display: flex;
+  margin-right: auto;
+  min-width: 592px;
+}
 .header .navigation li {
   margin-right: 50px;
 }
-
 .header .navigation li:last-child {
   margin-right: 0px;
 }
-
 .header .navigation li a {
   color: #000;
   font-size: 15px;
   font-weight: 400;
-  line-height: 20px; /* 133.333% */
+  line-height: 20px;
   text-decoration: none;
 }
 
@@ -589,7 +572,6 @@ html {
   align-items: center;
   margin: 0 auto;
   padding: 120px 20px 160px 20px;
-  background-color: yellowgreen;
 }
 .easy .container h2 {
   text-align: center;
@@ -614,7 +596,6 @@ html {
   display: flex;
   margin: 0 auto;
   padding: 92px 75px 94px;
-  background-color: rgb(196, 169, 16);
 }
 .case .container .case-inner .studies {
   display: flex;

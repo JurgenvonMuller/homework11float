@@ -252,13 +252,13 @@ html {
   padding: 90px 0 150px 0;
 }
 
-.projects .projects-inner {
+.projects .container .projects-inner {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.projects .item {
+.projects .container .projects-inner .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -267,12 +267,11 @@ html {
   margin-bottom: 250px;
 }
 
-.projects .item:last-child {
+.projects .container .projects-inner .item:last-child {
   margin-bottom: 0;
 }
 
-.projects .item:nth-child(even) .image {
-  background-color: red;
+.projects .container .projects-inner .item:nth-child(even) .image {
   order: 1;
 }
 
@@ -290,7 +289,6 @@ html {
   flex-direction: column;
   align-items: flex-start;
   max-width: 493px;
-  width: 100%;
   padding: 5px 0;
 }
 

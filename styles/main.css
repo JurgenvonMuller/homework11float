@@ -224,8 +224,7 @@ html {
   font-weight: 600;
   line-height: 60px;
   max-width: 720px;
-  width: 100%;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .companies-pic {
@@ -241,15 +240,12 @@ html {
 При использовании жесткого паддинга 
 невозможно будет влепить еще одну компанию например 
 Ну и неизвестно что будет с адаптивностью */
-/*.img-comp {
-  margin-right: 103px;
-}*/
 .img-comp:last-child {
   margin-right: 20px;
 }
 
 .img-comp:first-child {
-  margin-left: 27px;
+  margin-left: 28px;
 }
 
 .projects {

@@ -697,7 +697,10 @@ html {
   align-items: center;
 }
 .footer-inner .autor p {
-  max-width: 300px;
+  max-width: 302px;
+}
+.footer-inner .autor .data {
+  margin-right: 76px;
 }
 .footer-inner img {
   margin: 0 14px 0 20px;
